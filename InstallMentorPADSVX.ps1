@@ -19,7 +19,7 @@ param
 	
 )
 
-if (Test-Path $PSScriptRoot\$mentorBatchFile)
+if (Test-Path "$PSScriptRoot\$mentorBatchFile")
 {
 	#Set some inital variables
 	$currentComputerName = $env:computername
